@@ -1,4 +1,4 @@
-# Day 01
+# Day 01: Using percentages & avoiding heights
 ## Percentages vs Fixed widths
 If you set a fixed width on an element, it might look good on your screen size, but it will break down on different screen sizes. Instead of defining pixels, use a percentage.
 
@@ -29,4 +29,4 @@ If you want to make sure your element (e.g. a header) always has some height, ev
 padding: 5em; /* 16 * 5 = 80px */
 ```
 
-`em`: the font size of the element you're setting the style on. By default, in most browsers it's 16px.
+`em`: the font size of the parent of the element you're setting the style on. By default, in most browsers it's 16px.
