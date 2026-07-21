@@ -1,0 +1,115 @@
+/* 
+
+CHALLENGE
+
+- You will have to modify the HTML
+
+- You can add new classes in the HTML
+  if you need to
+
+// Requirements
+1. The headings in the first row must be
+   a different color
+2. The two .col at the bottom must go next
+   to one another
+3. The section at the bottom should have
+   a dark background color and a different
+   color of text
+4. I've removed the "gap" that I created,
+   so you'll have to add it back in
+
+--------------------------------------------
+
+MY SOLUTION
+
+1. Give the h2 elements in the first row 
+   a class of .accent. Set the font color 
+   on .accent to purple.
+2. Wrap the two .col at the bottem with a 
+   .row.
+3. Wrap the bottom section in a .container
+   to limit the width. Wrap that in a 
+   .bg-blue div to set a background and 
+   font color. 
+4. Add a gap on .row.
+
+Extra credits:
+5. Set {text-align: center} on .col.
+6. Set padding on .row.
+7. Instead of having a separate .row div 
+   within the .container, just add the 
+   .row class to the .container div.
+
+*/
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.container {
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.row {
+    /* display: flex => flex container */
+    display: flex;
+    gap: 30px;
+    padding: 50px 0;
+}
+
+.accent {
+    color: #87629A;
+}
+
+.col {
+    /* these are now flex items */
+    width: 100%;
+    text-align: center;
+}
+
+.bg-blue {
+    background-color: #136C72;
+    color: #FFF;
+}
+
+.hero {
+    padding: 100px 0;
+    background-color: #23424A;
+    color: #FFF;
+}
+
+.hero__text {
+    width: 60%;
+}
+
+.hero p {
+    margin-bottom: 3em;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase; 
+    color: #23424A;
+    font-weight: 900;
+    background-color: #38CFD9;
+    padding: .75em 2em;
+    border-radius: 100px;
+}
+
+.btn:hover,
+.btn:focus {
+    opacity: .75; 
+}
