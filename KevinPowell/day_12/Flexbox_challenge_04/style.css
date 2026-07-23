@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Font weights
+Roboto light: 300
+Roboto regular: 400
+Playfair Display black: 900
+*/
+
+/* General */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    font: inherit;
+}
+
+html {
+    --color-beige: #F3EED9;
+    --color-brown: #824936;
+    --color-dark: #222C2A;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Roboto, 'sans-serif';
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Utility classes */
+
+.container {
+    width: 90%;
+    max-width: 1128px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.col {
+    width: 46%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+/* Components */
+
+.hero {
+    background-color: var(--color-beige);
+}
+
+.hero__content {
+    width: 70%;
+    max-width: 800px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    min-height: 660px;
+    text-align: center;
+}
+
+.hero__subtitle {
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    letter-spacing: 0.4em;
+
+    margin: 0;
+}
+
+.hero__title {
+    color: var(--color-brown);
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: 3.75rem;
+    line-height: 1em;
+
+    margin: 0.3em 0;
+}
+
+.section {
+    padding: 5rem;
+}
+
+.section--bg-dark {
+    background-color: var(--color-dark);
+}
+
+.section--bg-brown {
+    background-color: var(--color-brown);
+}
+
+.section__title {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.25rem;
+    font-weight: 900;
+    margin: 0;
+}
+
+.section__title--color-brown {
+    color: var(--color-brown);
+}
+
+.section__title--color-beige {
+    color: var(--color-beige);
+}
+
+.section__title--centered {
+    text-align: center;
+}
+
+.section__paragraph {
+    font-size: 1.3125rem;
+    line-height: 1.5em;
+    
+}
+
+.section__paragraph--color-white {
+    color: #fff;
+}
