@@ -3,7 +3,7 @@
 A basic example:
 ```css
 /* 600px or bigger */
-@media(min-width:600px) {
+@media (min-width:600px) {
     .example {
         background-color: olivedrab;
     }
