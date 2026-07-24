@@ -35,3 +35,24 @@ img {
 6. Style the utility classes, like `.container` or `row`.
 7. Style the rest of the page top to bottom, following the order of the html file.
 8. Media queries go at the bottom. Within the media queries, put typography first, layout second.
+
+## Typography reference
+### Font-weights
+- Thin: 100
+- ExtraLight: 200
+- Light: 300
+- Regular: 400
+- Medium: 500
+- SemiBold: 600
+- Bold: 700
+- ExtraBold: 800
+- Black: 900
+### Font-sizes
+If the root font-size is set to 16px, then:
+- 16px = 1rem
+- 18px = 1.125rem
+- 21px = 1.3125rem
+- 24px = 1.5rem
+- 30px = 1.875rem
+- 36px = 2.25rem
+- 90px = 5.625rem
