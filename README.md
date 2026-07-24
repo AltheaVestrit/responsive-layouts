@@ -3,7 +3,14 @@
 [Conquering Responsive Layouts](https://courses.kevinpowell.co/p/courses/conquering-responsive-layouts)
 
 ## Design tips
-https://medium.com/refactoring-ui/7-practical-tips-for-cheating-at-design-40c736799886
+- General tips: https://medium.com/refactoring-ui/7-practical-tips-for-cheating-at-design-40c736799886
+- A little bit about white space: https://refactoring-ui.nyc3.cdn.digitaloceanspaces.com/Refactoring%20UI%20-%20Start%20with%20too%20much%20white%20space.pdf
+- Building your Color Palette: https://refactoringui.com/previews/building-your-color-palette/
+- More about colors: search on YouTube for "web color palette"
+- About using labels in the UI: https://refactoringui.com/previews/labels-are-a-last-resort/
+
+## Inspiration
+- Dashboard UI: https://vimeo.com/305601486/a1388ac3a9
 
 ## Class Naming Convention
 [BEM - Block Element Modifier](https://getbem.com/). 
